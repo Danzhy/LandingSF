@@ -482,6 +482,7 @@ body{
       height: 864px;
       background-size: cover;
       position: relative;
+      margin-top: 242px;
   }
 
   .team::after{
@@ -491,7 +492,7 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0,0,0,.5);
+    background: rgba(0,0,0,.8);
     z-index: 2;
   }
 
@@ -502,11 +503,95 @@ body{
     margin: 0 auto;
     position: relative;
     z-index: 3;
-        
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .team-container-examples{
     color: white;
 }
 
+.img-container{
+    max-width: 360px;
+}
 
+.team-images1{
+    margin-top: -42px;
+    margin-right: -150px;
+}
+
+.team-images2{
+    margin-top: -112px;
+}
+
+.imgbtm{
+    margin-top: 40px;
+}
+
+.review{
+    margin-top: 110px;
+}
+
+.review-c{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    
+}
+
+.review-head{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.review-80{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.handshake-block{
+    margin-top: 25px;
+    display: block;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.handshake{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.review-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ppl-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.det{
+    position: relative;
+    bottom: 30px;
+}
+
+.cal{
+    position: relative;
+    bottom: 20px;
+}
