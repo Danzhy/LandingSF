@@ -531,6 +531,7 @@ body{
 
 .review{
     margin-top: 110px;
+    height: auto;
 }
 
 .review-c{
@@ -573,10 +574,24 @@ body{
     justify-content: space-around;
 }
 
+.container-ppl{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    height: 428px;
+}
+
+.avatar{
+    
+    border-radius: 50%;
+}
+
 .ppl-header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.pplreview{
+    line-height: 1.5;
 }
 
 .details-container{
@@ -594,4 +609,17 @@ body{
 .cal{
     position: relative;
     bottom: 20px;
+}
+
+.detailsreview{
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    height: 58px;
+    margin-top: -27px;
+}
+
+.city{
+    position: relative;
+    margin-top: -200px;
+   z-index: -1;
 }
