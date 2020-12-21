@@ -19,9 +19,6 @@ body{
 }
 
 .logo{
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 11px;
     line-height: 15px;
     text-transform: uppercase;
@@ -38,9 +35,6 @@ body{
 
 .nav-header-item{
     margin-right: 47px;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 11px;
     line-height: 15px;
     color: white;
@@ -48,9 +42,6 @@ body{
 }
 
 .contact-number{
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 11px;
     line-height: 15px;   
     text-decoration-line: underline;
@@ -65,9 +56,6 @@ body{
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
-    font-family: Nunito Sans;
-    font-style: italic;
-    font-weight: normal;
     font-size: 11px;
     line-height: 15px;
     text-align: center;
@@ -109,13 +97,16 @@ body{
 
 
 .home-heading{
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
     font-size: 40px;
     line-height: 53px;
     text-transform: uppercase;
     color: white;
+}
+
+.Yeseva-capital{
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
 }
 
 .h1-Rostov{
@@ -123,9 +114,6 @@ body{
 }
 
 .home-paragraph{
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 22px;
     line-height: 36px;
     color: white;
@@ -156,11 +144,13 @@ body{
     justify-content: space-between;
     padding-top: 107px;
 }
+
+.projects-text{
+    margin-top: 100px;
+}
+
 .projects-header{
     margin-top: 0;
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
     font-size: 27px;
     line-height: 37px;
     letter-spacing: -0.07em;
@@ -168,23 +158,25 @@ body{
     color: #E3B873;
 }
 
-.projects-paragraphs{
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 21px;
-    color: #FFFFFF;
-}
+
 
 .projects-subheaders{
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
     color: #E3B873;
+}
+
+.projects-paragraphs{
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 9px;
+    text-transform: none;
+}
+
+.sbhb{
+    margin-top: 34px;
 }
 
 .projects-text-details{
@@ -198,7 +190,11 @@ body{
     display: flex;
     flex-direction: row;
     margin-right: 15px;
-    margin-top: 40px;
+    margin-top: 85px;
+}
+
+.point{
+    cursor: pointer;
 }
 
 .projects-list{
@@ -216,8 +212,18 @@ body{
 .project-list-header{
     color: white;
     cursor: pointer;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
 }
 
+.bright{
+    color: #E3B873;
+}
+
+.dull{
+    color: rgba(255, 255, 255, 0.3);
+}
 
 .empty-list{
     margin-top: 4px;   
@@ -250,15 +256,15 @@ body{
 }
 
 .types_header{
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
+    color: #FFFFFF;
+    margin-top: -324px;
+}
+
+.general-header{
     font-size: 20px;
     line-height: 28px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
-    margin-top: -324px;
 }
 
 .types-camera{
@@ -275,14 +281,16 @@ body{
 
 .types-description{
     margin-top: 34px;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 37px;
     text-align: center;
     color: #363636;
+}
 
+.Nunito{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
 }
 
 .types-registrarion{
@@ -332,13 +340,6 @@ body{
 
 .types-header-projects{
     margin-top: 76px;
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    text-transform: uppercase;
     color: #181818;
 }
 
@@ -361,14 +362,16 @@ body{
     justify-content: space-around;
 }
 
-.types-desctiption-frame{
+.types-description-frame{
     background-color: white;
     margin-top: -127px;
     padding: 25px 32px 49px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 }
 
 .types-description-frame_heading{
     margin: 0;
+    margin-left: 20px;
 }
 
 .description-list_items{
@@ -384,6 +387,13 @@ body{
 
 .types-pricing-frame{
     margin-top: -30px;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    width: 228px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .types-pricing-frame_heading{
@@ -401,10 +411,23 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: -600px;
 }
 
 .measurement-list-element{
     margin-top: 114px;
+    list-style: none;
+    
+}
+
+.measurement-list-element::before{
+    content: '01';
+    color: white;
+    padding: 5px;
+    background-color: #E3B873;
+    border: white solid 5px;
+    border-radius: 50%;
+    margin-left: -37px;
 }
 
 .measurement-form{
@@ -512,6 +535,31 @@ body{
     color: white;
 }
 
+.fantasies{
+    margin-top: 140px;
+    margin-bottom: 74px;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.american-examples{
+    list-style: none;
+    padding: 0;
+}
+
+.american-elements{
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.american{
+    color: #E3B873;
+    text-decoration: underline;
+}
+
 .img-container{
     max-width: 360px;
 }
@@ -543,7 +591,6 @@ body{
 
 .review-head{
     margin: 0 auto;
-    text-align: center;
     margin-bottom: 10px;
 
 }
@@ -580,8 +627,13 @@ body{
 }
 
 .avatar{
-    
     border-radius: 50%;
+}
+
+.pplname{
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
 }
 
 .ppl-header{
@@ -591,7 +643,12 @@ body{
 }
 
 .pplreview{
-    line-height: 1.5;
+    font-size: 13px;
+    line-height: 23px;
+    color: #959595;
+    padding-left: 20px;
+    padding-right: 30px;
+
 }
 
 .details-container{
@@ -619,7 +676,118 @@ body{
 }
 
 .city{
+    text-align: center;
     position: relative;
     margin-top: -200px;
    z-index: -1;
+}
+
+.contacts{
+    background-image: url(imageslanding/lastimg.jpg);
+    background-size: cover;
+    height: 954px; 
+    position: relative;  
+}
+
+.contacts::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+  }
+
+
+.mini{
+    width: 14px;
+    height: 11px;
+}
+
+.contacts-container{
+    position: relative;
+    z-index: 3;
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.questions{
+    width: 883px;
+    height: 445px;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -200px;
+}
+
+.question-header{
+    color: white;
+    margin-top: 50px;
+}
+
+.cmbinput{
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.margin-right{
+    margin-right: 15px;
+}
+
+.margin-left{
+    margin-left: -197px;
+}
+
+.check-white{
+    color: white;
+}
+
+.button-last{
+    margin-top: 50px;
+}
+
+.contacts-midhead{
+    margin-top: 52px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.mini{
+    border: solid 2px;
+    border-color: #E3B873;
+    background-color: #E3B873;
+    border-radius: 50%;
+    width: 20px;
+    height: 17px;
+}
+
+.leftimg{
+    margin-right: 10px;
+}
+
+.rightimg{
+    margin-left: 10px;
+}
+
+.mailinst{
+    margin-bottom: 43px;
+}
+
+.map{
+    width: 925px;
+    height: 465px;
+}
+
+.footer{
+    background-color: black;
+    height: 83px;
 }
