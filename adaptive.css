@@ -1,0 +1,372 @@
+@media (max-width:1470px){
+    .adapt{ 
+        max-width: 1210px;
+    }
+
+    .citybg{
+        max-width: 605px;
+    }
+
+    .fadapt{
+        width: 1210px;
+    }
+
+    .measurement-savings{
+        width: 916px;
+    }
+
+    .left-top{
+        width: 272px;
+        height: 428px;
+    }
+
+    .right-top{
+        width: 272px;
+        height: 211px;
+    }
+
+    .left-bottom{
+        width: 272px;
+        height: 270px;
+    }
+
+    .right-bottom{
+        width: 272px;
+        height: 480px;
+    }
+
+    .img-container{
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 1260px){
+    .adapt{
+        max-width: 1000px;
+    }
+
+    .citybg{
+        max-width: 500px;
+    }
+
+    .fadapt{
+        width: 1000px;
+    }
+
+    .home-buttons{
+        width: 400px;
+    }
+
+    .fntadapt11{
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .button{
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .home-heading{
+        font-size: 37px;
+        line-height: 50px;
+    }
+    .home-paragraph{
+        font-size: 19px;
+        line-height: 33px;
+    }
+    .headadp{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .description-list_items{
+        font-size: 12px;
+    }
+    .types-description-frame_heading{
+        font-size: 15px;
+    }
+    .american-elements{
+        font-size: 17px;
+    }
+    .pplreview{
+        font-size: 11px;
+    }
+
+    .types-sampesfoto_elements{
+        width: 300px;
+        height: 324px;
+    }
+
+    .left-top{
+        width: 209px;
+        height: 330px;
+    }
+
+    .right-top{
+        width: 209px;
+        height: 162px;
+    }
+
+    .left-bottom{
+        width: 209px;
+        height: 207px;
+    }
+
+    .right-bottom{
+        width: 209px;
+        height: 370px;
+    }
+    
+    .img-container{
+        padding-top: 130px;
+        padding-left: 50px;
+    }
+
+
+}
+
+
+@media (max-width: 460px){
+    .header{
+        height: 55px;
+    }
+    .header-container{
+        height: 55px;
+    }
+    .nav-header-list{
+        display: none;
+    }
+    .button-heading{
+        display: none;
+    }
+    .adapt{
+        max-width: 340px;
+    }
+    .fadapt{
+        width: 340px;
+    }
+    .projects-side{
+        display: none;
+    }
+    .home-buttons{
+        flex-direction: column;
+        width: 340px;
+    }
+    .home-section{
+        height: 476px;
+    }
+    .home-overlay{
+        height: 478px;
+        margin-top: 54px;
+    }
+    .button{
+        font-size: 13px;
+    }
+    .button-transparent{
+        margin-top: 26px;
+    }
+    .home-paragraph{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .home-heading{
+        font-size: 23px;
+        line-height: 31px;
+    }
+    .project-wrapper{
+        padding: 0;
+    }
+    .projects-text{
+        margin-top: 36px;
+        width: 340px;
+    }
+    .projects-header{
+        text-align: center;
+        font-size: 22px;
+    }
+    .arrow-navigation{
+        display: none;
+    }
+    .mobileimg{
+        display: inline;
+        margin-top: 34px;
+    }
+    .projects-subheaders{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .projects-paragraphs{
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .black{
+        margin-top: -2px;
+    }
+    .general-header{
+        font-size: 22px;
+    }
+    .types-video{
+        width: 340px;
+        height: 207px;
+    }
+    .types-description{
+        font-size: 11px;
+        line-height: 19px;
+        width: 340px;
+    }
+    .types-registrarion{
+        width: 340px;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    .topinp{
+        margin-top: 80px;
+    }
+    .types-description-button{
+        margin-top: 100px;
+    }
+    .mobilechange{
+        margin-top: -120px;
+    }
+    .types-header-projects{
+        margin-top: 140px;
+    }
+    .repair-container{
+        flex-direction: column;
+    }
+    .types-samplesfoto{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .types-desctiption{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .types-pricing{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .types-description-frame{
+        width: 270px;
+        height: 241px;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .types-pricing-frame_heading{
+        font-size: 15px;
+    }
+    .types-pricing-frame{
+        width: 190px;
+        height: 40px;
+        margin-bottom: 60px;
+    }
+    .measurement{
+        display: none;
+    }
+    .review{
+        display: none;
+    }
+    .img-container{
+        display: none;
+    }
+    .types{
+        height: 2350px;
+    }
+    .team{
+        margin-top: 0;
+        display: none;
+    }
+    .american-elements{
+        display: none;
+    }
+    .mobilehead{
+        display: block;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobhea{
+        margin-top: -100px;
+    }
+    .mobblack{
+        background-color: black;
+        margin-top: -2px;
+    }
+    .types-description_input {
+        background-color: black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+    
+    .types-description_input::-webkit-input-placeholder{
+        color: white;
+    }
+    
+    .types-description_input::-moz-input-placeholder{
+        color: white;
+    }
+    
+    .types-description_input::-ms-input-placeholder{
+        color: white;
+    }
+    .types-description{
+        color: white;
+    }
+    .text{
+        color: white;
+    }
+    .headingmob{
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+    .mobile2{
+        
+    }
+    .questions{
+        width: 340px;
+        background-color: black;
+    }
+    .mobileend{
+        height: 350px;
+        background-color: black;
+    }
+    .mid{
+        margin-top: 40px;
+    }
+    .last-input{
+        width: 336px;
+        background-color: black;
+    }
+    .margin-left{
+        margin: 0;
+    }
+    .margin-right{
+        margin: 0;
+    }
+    .contacts{
+        background-image: url();
+        background-size: cover;
+        height: 754px; 
+        position: relative;  
+        background-color: black;
+    }
+    .button-last{
+        width: 340px;
+    }
+    .map{
+        width: 340px;
+        height: 242px;
+        position: relative;
+        bottom: 200px;
+    }
+    .footer{
+        display: none;
+    }
+    .midhead-wrapper{
+        position: relative;
+        bottom: -270px;
+    }
+    
