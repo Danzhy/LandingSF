@@ -124,6 +124,319 @@
 }
 
 
+@media (max-width: 1170px){
+    .adapt{
+        max-width: 800px;
+    }
+
+    .citybg{
+        max-width: 400px;
+    }
+
+    .fadapt{
+        width: 800px;
+    }
+
+    .home-buttons{
+        width: 400px;
+    }
+
+    .fntadapt11{
+        font-size: 9px;
+        line-height: 11px;
+    }
+    .button{
+        font-size: 8px;
+        line-height: 11px;
+    }
+    .home-heading{
+        font-size: 33px;
+        line-height: 50px;
+    }
+    .home-paragraph{
+        font-size: 16px;
+        line-height: 33px;
+    }
+    .headadp{
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .description-list_items{
+        font-size: 11px;
+    }
+    .types-description-frame_heading{
+        font-size: 14px;
+    }
+    .american-elements{
+        font-size: 15px;
+    }
+    .pplreview{
+        font-size: 12px;
+        
+    }
+
+    .types-sampesfoto_elements{
+        width: 300px;
+        height: 324px;
+    }
+
+    .left-top{
+        width: 209px;
+        height: 330px;
+    }
+
+    .right-top{
+        width: 209px;
+        height: 162px;
+    }
+
+    .left-bottom{
+        width: 209px;
+        height: 207px;
+    }
+
+    .right-bottom{
+        width: 209px;
+        height: 370px;
+    }
+    
+    .img-container{
+        padding-top: 130px;
+        padding-left: 50px;
+    }
+    .team-container{
+        padding-left: 70px;
+    }
+    .fantasies{
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    .review-c{
+        max-width: 1160px;
+    }
+    .project-list-header{
+        font-size: 10px;
+    }
+    .projects-list{
+        justify-content: space-around;
+        max-width: 500px;
+        margin-top: 120px;
+    }
+    .projects-example{
+        width: 400px;
+        height: 284px;
+    }
+    .measurement-savings{
+        width: 580px;
+    }
+    .map{
+        width: 800px;
+        height: 402px;
+    }
+    .questions{
+        width: 800px;
+        height: 425px;
+        margin-top: -170px;
+    }
+    .measurement-list-element{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 1040px){
+    
+    .pplreview{
+        font-size: 12px;
+        padding: 0 10px 0 10px;
+    }
+
+    .types-sampesfoto_elements{
+        width: 300px;
+        height: 324px;
+    }
+
+    
+    .review-c{
+        max-width: 1160px;
+    }
+    .detailsreview{
+        width: 270px;
+    }
+    .measpng{
+        width: 24px;
+        height: 24px;
+    }
+    .det{
+        font-size: 15px;
+    }
+    .cal{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 946px){
+    .adapt{
+        max-width: 730px;
+    }
+
+    .citybg{
+        max-width: 365px;
+    }
+
+    .fadapt{
+        width: 730px;
+    }
+
+    .home-buttons{
+        width: 350px;
+    }
+
+    .fntadapt11{
+        font-size: 8px;
+        line-height: 11px;
+    }
+    .nav-header{
+        width: 500px;
+    }
+    .button{
+        font-size: 8px;
+        line-height: 11px;
+    }
+    .home-heading{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .home-paragraph{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .headadp{
+        font-size: 19px;
+        line-height: 31px;
+    }
+    .description-list_items{
+        font-size: 10px;
+    }
+    .types-pricing-frame_heading {
+        font-size: 15px;
+    }
+    .types-pricing-frame{
+        width: 175px;
+    }
+    .types-description-frame{
+        padding: 25px 22px 0px 0px;
+        width: 180px;
+        height: 250px;
+    }
+    .american-elements{
+        font-size: 13px;
+    }
+    .pplreview{
+        font-size: 9px;
+    }
+    .container-ppl{
+        height: 340px;
+    }
+    .types-sampesfoto_elements{
+        width: 230px;
+        height: 250px; 
+    }
+
+    .left-top{
+        width: 209px;
+        height: 330px;
+    }
+
+    .right-top{
+        width: 209px;
+        height: 162px;
+    }
+
+    .left-bottom{
+        width: 209px;
+        height: 207px;
+    }
+
+    .right-bottom{
+        width: 209px;
+        height: 370px;
+    }
+    
+    .img-container{
+        padding-top: 130px;
+        padding-left: 50px;
+    }
+    .team-container{
+        padding-left: 70px;
+    }
+    .fantasies{
+        font-size: 17px;
+        margin-bottom: 50px;
+    }
+    .review-c{
+        max-width: 1160px;
+    }
+    .project-list-header{
+        font-size: 10px;
+    }
+    .projects-list{
+        justify-content: space-around;
+        max-width: 500px;
+        margin-top: 120px;
+    }
+    .projects-example{
+        width: 320px;
+        height: 223px;
+    }
+    .measurement-savings{
+        width: 480px;
+    }
+    .map{
+        width: 730px;
+        height: 367px;
+    }
+    .questions{
+        width: 730px;
+        height: 425px;
+        margin-top: -170px;
+    }
+    .measurement-list-element{
+        font-size: 11px;
+    }
+    .types-video{
+        width: 730px;
+    }
+    .measurement-form{
+        width: 400px;
+    }
+    .form-input{
+        width: 360px;
+    }
+    .team-images2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .measpng{
+        width: 22px;
+        height: 22px;
+    }
+    .det{
+        font-size: 13px;
+    }
+    .cal{
+        width: 22px;
+        height: 22px;
+    }
+    .detailsreview{
+        width: 230px;
+        height: 55px;
+    }
+    
+}
+
 @media (max-width: 460px){
     .header{
         height: 55px;
@@ -322,9 +635,6 @@
         text-transform: uppercase;
         color: #E3B873;
     }
-    .mobile2{
-        
-    }
     .questions{
         width: 340px;
         background-color: black;
@@ -369,4 +679,4 @@
         position: relative;
         bottom: -270px;
     }
-    
+}

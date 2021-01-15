@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: "Nunito Sans";
     counter-reset: section;
+    overflow-x: hidden;
 }
 
 .header{
@@ -246,6 +247,7 @@ body{
 .black{
     height: 324px;
     background-color: black;
+    margin-top: -1px;
 }
 
 
@@ -361,6 +363,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .types-samplesfoto{
@@ -592,9 +596,10 @@ body{
     line-height: 38px;
 }
 
-.american{
+.american:hover{
     color: #E3B873;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .img-container{
@@ -621,9 +626,7 @@ body{
 
 .review-c{
     max-width: 1440px;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto; 
 }
 
 .review-head{
